@@ -52,7 +52,8 @@
     padding: 24px;
     border-radius: 2rem;
     z-index: 1;
-    border-bottom-style: solid ;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
   }  
 
   #top-action-content {
@@ -90,7 +91,6 @@
     left: 50%;
     transform: translate(-50%, 50%);
     background-image: url("/assets/avatar-picture-placeholder.svg");    
-    filter: invert(.3);
     border-radius: 50%;
     pointer-events: none;
     border: 3px solid;

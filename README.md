@@ -5,7 +5,7 @@ A simple portfolio page with html, css and javascript only.
 Features:
 
 - [ ] Theme support.
-  - [ ] Create a dark theme variant style and change it based on visitor browser preference.
+  - [x] ~Create a dark theme variant style and change it based on visitor browser preference~.
   - [ ] Create a theme button with a dropdown menu to set a custom option (system/light/dark).
 
 - [ ] Contact button.

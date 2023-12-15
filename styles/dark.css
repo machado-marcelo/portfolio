@@ -1,0 +1,37 @@
+body {
+  color: #afafaf;
+  background-color: #161617;
+}
+
+#profile {
+  background-color: #232325;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  outline: #373739 1px solid;
+  border-bottom-color: #343434;
+}
+
+#avatar > img{
+  border-color: #575757;
+  background-color: #161617;
+  filter: invert(.2);
+}
+
+#background div:nth-child(1) {
+  background-color: #343434;
+}
+
+.rounded-button {
+  background-color: #4f4f4f;
+}
+
+.rounded-button:hover {
+  background-color: #f8f8f8;
+}
+
+.rounded-button object {
+  filter: invert(.9)
+}
+
+.rounded-button:hover object {
+  filter: invert(.25)
+}
