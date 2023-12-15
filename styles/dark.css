@@ -10,7 +10,7 @@ body {
   border-bottom-color: #343434;
 }
 
-#avatar > img{
+#avatar > img {
   border-color: #575757;
   background-color: #161617;
   filter: invert(.2);
@@ -20,7 +20,9 @@ body {
   background-color: #343434;
 }
 
-.rounded-button {
+.rounded-button,
+.active-rounded-button,
+.dropdown-content-visible  {
   background-color: #4f4f4f;
 }
 
