@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  a {
+    color: inherit;
   }
 
   body {
@@ -62,7 +67,7 @@
   }
 
   #identification-content {
-    margin-top: 45px;
+    margin-top: 60px;
     text-align: center;
   }
   
@@ -127,6 +132,19 @@
     align-items: center;
   }
 
+  .button {
+    cursor: pointer;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+
   .rounded-button,  #avatar>img {
     -webkit-user-select: none;  /* Safari */
     -ms-user-select: none;  /* IE 10 and IE 11 */
@@ -149,12 +167,25 @@
     z-index: 1;
   }
 
-
   .dropdown-content-hidden {
     display: none;
   }
+    
+  #content-actions {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+    justify-content: center;
+    padding: 0.8rem 2rem;
+  }
+
+
 
   @media only screen and (min-width: 768px) {
+
+    #content-actions {
+     padding: 0.2rem;
+    }
 
     .rounded-button, .active-rounded-button {
       height: 40px;

@@ -9,7 +9,7 @@ Features:
   - [x] ~Create a theme button with a dropdown menu to set a custom option (system/light/dark)~.
 
 - [ ] Contact button.
-  - [ ] Create a contact button to with a “mailto hfef”.
+  - [x] Create a contact button to with a “mailto hfef”.
   - [ ] Change the button action to show a hidden modal listing all available preferred contacts (emails, phones, direct message links, etc)
 
 - [ ] Language options.

@@ -19,14 +19,17 @@ body {
   background-color: #5a5a5a;
 }
 
-
+.button,
 .rounded-button,
 .active-rounded-button,
 .dropdown-content-visible  {
+  color: #5a5a5a;
   background-color: #e5e5e5;
 }
 
+.button:hover,
 .rounded-button:hover {
+  color: #fff;
   background-color: #5a5a5a;
 }
 
