@@ -1,13 +1,21 @@
 fillThemeOptions();
+setDefaultLanguageOptions();
 setDefaultThemeOptions();
 listenClickAndCloseOpenedMenus();
 listenVisitorBrowserColorPreferenceChange();
 
 function listenClickAndCloseOpenedMenus() {
+  
   document.addEventListener('click', (event) => {
+    
     if (!event.target.classList.contains('theme-button') && document.getElementById('theme-switcher-container').classList.contains('active-rounded-button')) {
       setMenuState('theme', false);
     }
+    
+    if (!event.target.classList.contains('flag-button') && document.getElementById('language-switcher-container').classList.contains('active-rounded-button')) {
+      setMenuState('language', false);
+    }
+    
   });    
 }
 

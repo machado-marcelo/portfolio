@@ -179,12 +179,22 @@
     padding: 0.8rem 2rem;
   }
 
+  .flag-img {
+    height: 24px;
+    pointer-events: none;
+  }
 
 
   @media only screen and (min-width: 768px) {
 
     #content-actions {
      padding: 0.2rem;
+    }
+
+      
+    .flag-img {
+      height: 32px;
+      pointer-events: none;
     }
 
     .rounded-button, .active-rounded-button {

@@ -37,11 +37,17 @@
               </div>
               <div id="theme-dropdown-wrapper" class="dropdown-content-hidden"></div>
             </div>
+            <div id="language-switcher-container" class="dropdown">
+              <div onclick="toogleMenu('language')" class="rounded-button flag-button">
+                <img data-i18n="flag_url" class="flag-img" />
+              </div>
+              <div id="language-dropdown-wrapper" class="dropdown-content-hidden"></div>
+            </div>
           </div>       
         </div>
         <div id="identification-content">
           <p>Marcelo Machado</p>
-          <p>Desenvolvedor Web/Mobile</p>
+          <p data-i18n="professional_description">Desenvolvedor Web/Mobile</p>
         </div>
         <div id="content-actions">
           <a class="button" href="mailto:marcelomachado.dev@gmail.com">
@@ -60,6 +66,7 @@
     </main>   
     <!-- Scripts -->
     <script src="scripts/theme-handle.js"></script>
+    <script src="./scripts/language-handle.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
